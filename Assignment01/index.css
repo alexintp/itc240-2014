@@ -1,0 +1,30 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	background-color:grey;
+	font-size: 25px;
+	margin: 0 0 100px; /* bottom = footer height */
+}
+
+h1 {
+	color:blue;
+	text-align:center;
+}
+
+#intro {
+	font-family:"Verdana";
+	font-size:30px;
+	color: maroon;
+}
+
+footer {
+	font-size: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
