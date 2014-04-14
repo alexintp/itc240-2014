@@ -1,4 +1,4 @@
-<?php>
+<?php
 $page_title = "Page Two";
 $instructor_name = "Thomas Wilburn";
 $assignment_number = "01";
