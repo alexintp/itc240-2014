@@ -1,8 +1,7 @@
 <?php
 $page_title = "Page Two";
-$instructor_name = "Thomas Wilburn";
-$assignment_number = "01";
-$date = "4/13/2014";
+
+include("values_assignment01.inc");
 
 include("head.inc");
 ?>
