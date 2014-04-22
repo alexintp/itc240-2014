@@ -1,0 +1,57 @@
+
+body {
+	background-color: grey;
+	margin: 25px 25px 100px; 
+}
+
+h1 {
+	color: maroon;
+	text-align: center;
+}
+
+h2 {
+	color: blue;
+	font-size: 25px;
+}
+
+
+form {
+	width: 25%;	
+}
+
+input {
+	border-color: maroon;
+	height: 30px;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	margin: 40px;
+	background-color: maroon;
+	color: white;
+}
+
+.mad {
+	width: 80%;
+	color: white;
+	border: 3px solid maroon;
+}
+
+u {
+	text-decoration: underline;	
+}
+
+
+#bonus {
+	
+	color: yellow;
+	border-top: 3px dotted blue;
+	border-bottom: 3px dotted blue;
+}
+
+p {
+	font-size:20px;
+	color: black;
+}
+
