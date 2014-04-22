@@ -78,5 +78,5 @@ if ($method == "GET") {
 }
 ?>
 
-</body>
+	</body>
 </html>

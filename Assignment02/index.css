@@ -11,23 +11,24 @@ h1 {
 
 h2 {
 	color: blue;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 
 form {
-	width: 25%;	
+	width: 200px;	
 }
 
 input {
 	border-color: maroon;
 	height: 30px;
+	width: 200px;
 }
 
 button {
 	width: 100px;
 	height: 50px;
-	margin: 40px;
+	margin: 50px;
 	background-color: maroon;
 	color: white;
 }
@@ -36,6 +37,7 @@ button {
 	width: 80%;
 	color: white;
 	border: 3px solid maroon;
+	font-size: 25px;
 }
 
 u {
@@ -44,10 +46,11 @@ u {
 
 
 #bonus {
-	
+	width: 80%;
 	color: yellow;
 	border-top: 3px dotted blue;
 	border-bottom: 3px dotted blue;
+	font-size: 25px;
 }
 
 p {
