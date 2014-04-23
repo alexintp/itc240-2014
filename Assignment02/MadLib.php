@@ -4,6 +4,8 @@ include("head.inc");
 
 $method = $_SERVER["REQUEST_METHOD"];
 
+if ($method == "POST") {
+
 $noun = htmlentities($_REQUEST["noun"]);
 $verb = htmlentities($_REQUEST["verb"]);
 $adjective = htmlentities($_REQUEST["adjective"]);
@@ -11,6 +13,7 @@ $first_number = htmlentities($_REQUEST["first_number"]);
 $second_number = htmlentities($_REQUEST["second_number"]);
 $bonus = htmlentities($_REQUEST["proper_noun"]);
 
+}
 
 if ($method == "GET") {
 ?>
