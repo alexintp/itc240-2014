@@ -2,7 +2,7 @@
 					
 	if ($show == "time2") {
 	
-		foreach ($Jeep_Projects as $proj) {
+		foreach ($Jeep_Projects as $key => $proj) {
 		
 			if ($proj["Time"] <= 2) {
 			
@@ -13,7 +13,7 @@
 		
 	} else if ($show == "time4") {
 	
-		foreach ($Jeep_Projects as $proj) {
+		foreach ($Jeep_Projects as $key => $proj) {
 		
 			if ($proj["Time"] > 2 && $proj["Time"] < 6) {
 			
@@ -24,7 +24,7 @@
 		
 	} else if ($show == "time6") {
 	
-		foreach ($Jeep_Projects as $proj) {
+		foreach ($Jeep_Projects as $key => $proj) {
 		
 			if ($proj["Time"] >= 6) {
 			
@@ -35,7 +35,7 @@
 		
 	} else {
 	
-		foreach ($Jeep_Projects as $proj) {
+		foreach ($Jeep_Projects as $key => $proj) {
 	
 			$count++;
 			include ("Includes/project_summary.php");					

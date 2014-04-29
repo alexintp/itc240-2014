@@ -1,5 +1,8 @@
 	<body>
-	
+		<pre>
+		<?php //print_r ($Jeep_Projects); ?>
+		</pre>
+		
 		<h1><u>Jeep Projects</u></h1>
 		
 		<h2>This site describes some planned spring projects on my Jeep. Below you can see Parker is standing by ready to help. There are <u><?=count($Jeep_Projects);?></u> Jeep projects so far.</h2>	
