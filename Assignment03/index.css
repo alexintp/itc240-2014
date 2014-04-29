@@ -1,0 +1,92 @@
+
+body {
+	background-color: Azure;
+	margin: 25px 50px 300px; 
+}
+
+h1 {
+	color: Navy;
+	text-align: center;
+}
+
+h2 {
+	color: #2B2553;
+	font-size: 20px;
+}
+
+#proj-nav {	
+	width: 500px;
+	color: #2B2553;
+	font-size: 25px;
+	margin-top: 490px;
+	margin-left: 550px;	
+}
+
+u {
+	text-decoration: underline;	
+}
+
+.image {
+float: left;
+margin-right: 30px;
+margin-top: 20px;
+}
+
+#summary {
+	width: 800px;
+	font-size: 25px;
+	float: left;
+	margin-top:  10px;
+	
+}
+
+#filter {
+	width: 810px;
+	font-size: 20px;
+	float: left;
+	margin-top:  25px;
+	color: #2B2553;
+}
+
+#info {
+	width: 500px;
+	border-top: 3px dotted DarkSlateGray;
+	border-bottom: 3px dotted DarkSlateGray;
+	font-size: 25px;
+	color: #2B2553;
+	float: left;
+	margin-top:  20px;
+}
+
+
+.long_list {
+	margin: 5px;
+}
+
+li {
+	font-size: 20px;
+	color: #2B2553;
+	margin-top: 20px;
+}
+
+.easy {
+color: green;
+}
+
+.medium {
+color: orange;
+}
+
+.hard {
+color: red;
+}
+
+
+a {
+margin: 8px;
+font-size: 20px;
+}
+
+img {
+border: 2px solid MediumBlue;
+}
