@@ -3,6 +3,7 @@
 <?php
 
 $project = $Jeep_Projects[$show];
+$num = $project["Number"];
 $name = $project["Name"];
 $image = $project["Image"];
 $time = $project["Time"];
@@ -25,7 +26,7 @@ if ($show < count($Jeep_Projects)-1) {
 
 ?>
 
-	<h2> Project Number: <?=$show+1?></h2> 
+	<h2> Project Number: <?=$num?></h2> 
 	<h2> Name: <?=$name?></h2>
 
 	<div class="image">
