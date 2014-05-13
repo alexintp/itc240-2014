@@ -1,10 +1,10 @@
 
 <?php
 
-$order = "DESC";
+//$order = "DESC";
 
 // modified based on: http://stackoverflow.com/questions/1290975/how-to-create-a-secure-mysql-prepared-statement-in-php
-$query = $mysql->prepare("SELECT * FROM jeep_projects ORDER BY $sort $order;");
+$query = $mysql->prepare("SELECT * FROM jeep_projects ORDER BY $sort;");
 $query->execute();
 $query->store_result();
 $query->bind_result($Number, $Name, $Image, $Due, $Difficulty, $Time);

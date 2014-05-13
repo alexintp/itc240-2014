@@ -3,8 +3,9 @@
 <?php
 
 // modified based on: http://stackoverflow.com/questions/1290975/how-to-create-a-secure-mysql-prepared-statement-in-php
+
 $query = $mysql->prepare("SELECT * FROM jeep_projects WHERE Number=?;");
-$query->bind_param('i', $show);
+$query->bind_param('i', $show);     //not sure what this does exactly Is it a security issue?  seems to work using the variable inside the query
 $query->execute();
 $query->store_result();
 $query->bind_result($Number, $Name, $Image, $Due, $Difficulty, $Time);
