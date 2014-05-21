@@ -2,10 +2,12 @@
 
 <?php
 
-// modified based on: http://stackoverflow.com/questions/1290975/how-to-create-a-secure-mysql-prepared-statement-in-php
+/* originally could not get the prepared statement code as used in class to work so went looking on the web 
+   below code is modified based on: http://stackoverflow.com/questions/1290975/how-to-create-a-secure-mysql-prepared-statement-in-php
+   later got the simplified code $query->get_result() and basic foreach loop to work for this but am leaving this more complex version */
 
 $query = $mysql->prepare("SELECT * FROM jeep_projects WHERE Number=?;");
-$query->bind_param('i', $show);     //not sure what this does exactly Is it a security issue?  seems to work using the variable inside the query
+$query->bind_param('i', $show);     //not sure what this does exactly Is it a security issue?  works using the variable directly inside the query without this step
 $query->execute();
 $query->store_result();
 $query->bind_result($Number, $Name, $Image, $Due, $Difficulty, $Time);
@@ -24,6 +26,7 @@ while($query->fetch()) {
 	<div id="info">
 		<p class="<?=$Difficulty?>"> Difficulty level: <?=$Difficulty?> </p>
 		<p> Time estimate: <?=$Time?> hours </p>
+		<p> Due Date: <?=$Due?> </p>
 			
 	</div>
 	

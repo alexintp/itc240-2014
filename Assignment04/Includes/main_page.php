@@ -17,7 +17,7 @@
 			<table>
 					<!-- sort icons from: http://www.iconarchive.com/ -->
 					<th>Project Number</br> <a href="index.php?sort=Number ASC"><img src="Images/sort-ascending-icon.png"</a><a href="index.php?sort=Number DESC"><img src="Images/sort-descending-icon.png"</a>
-					<th>Project Name </br> <a href="index.php?sort=Name ASC"><img src="Images/sort-ascending-icon.png"</a> <a href="index.php?sort=Name DESC"><img src="Images/sort-descending-icon.png"</a>
+					<th>Project Name </br> <a href="index.php?sort=Name ASC"><img src="Images/sort-ascending-icon.png"</a><a href="index.php?sort=Name DESC"><img src="Images/sort-descending-icon.png"</a>
 					<th>Time to Complete </br> <a href="index.php?sort=Time ASC"><img src="Images/sort-ascending-icon.png"</a><a href="index.php?sort=Time DESC"><img src="Images/sort-descending-icon.png"</a>
 					<th>Difficulty Level </br> <a href="index.php?sort=Difficulty ASC"><img src="Images/sort-ascending-icon.png"</a><a href="index.php?sort=Difficulty DESC"><img src="Images/sort-descending-icon.png"</a>
 					<th>Due Date</br> <a href="index.php?sort=Due ASC"><img src="Images/sort-ascending-icon.png"</a><a href="index.php?sort=Due DESC"><img src="Images/sort-descending-icon.png"</a>
