@@ -22,7 +22,6 @@ if (isset($_REQUEST["edit"])) {
 	
 	$calories = htmlentities($row["calories"]);
 	$description = htmlentities($row["description"]);
-	//$id = $row["id"];	
 }
 ?>	
 

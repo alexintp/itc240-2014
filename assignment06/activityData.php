@@ -10,7 +10,7 @@ if (isset($_REQUEST["delete"])){
   
 	$delete_query = 'DELETE FROM olympic_log WHERE id = ?';
 	$delete = $mysql->prepare($delete_query);
-	$delete->bind_param("i", $_REQUEST["delete"]);
+	$delete->bind_param("i", htmlentities($_REQUEST["delete"]));
 	$delete->execute();	
 }
 		
