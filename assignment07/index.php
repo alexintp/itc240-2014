@@ -70,11 +70,8 @@ include ("includes/head.php");
 
 <?php
 
-
   
   include ("includes/select.php");	
-  
-  //include ("includes/theme.php");
   
   include ("includes/display.php");
 

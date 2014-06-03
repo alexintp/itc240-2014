@@ -5,10 +5,7 @@
     setcookie($name, $value, time() + 60 * 60 * 24 * 10, "/");
   }
   
- function deleteCookie($name) {
-    setcookie($name, "", 10, "/");
-  }
-    
+     
  $preferences = [
     "sort" => $sort,
     "view" => $view,
