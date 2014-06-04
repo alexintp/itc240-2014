@@ -45,6 +45,6 @@ if ($user_id == "") {
 						
 									
 						
-	<body>
+	</body>
 	
-<html>
+</html>
