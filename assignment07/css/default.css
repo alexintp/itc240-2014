@@ -118,7 +118,7 @@ u {
 
 .input {
 	border-color: maroon;
-	height: 25px;
+	height: 30px;
 	width: 150px;
 	margin: 10px;
 	color: #2B2553;
@@ -160,38 +160,8 @@ u {
 	margin-left: 30px;
 }
 
-
-
-
-.summary {	
-	clear: both;
-	margin-top: 100px;
-}
-
-#filter {
-	width: 810px;
-	font-size: 20px;
-	float: left;
-	margin-top:  25px;
-	color: #2B2553;
-}
-
-#info {
-	width: 500px;
-	border-top: 3px dotted DarkSlateGray;
-	border-bottom: 3px dotted DarkSlateGray;
-	font-size: 25px;
-	color: #2B2553;
-	float: left;
-	margin-top:  20px;
-}
-
-
 a {
 	margin: 8px;
 	font-size: 20px;
 }
 
-img {
-	border: 2px solid MediumBlue;
-}

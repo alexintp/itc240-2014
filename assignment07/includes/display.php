@@ -1,10 +1,24 @@
+	
+<?php
+
+if ($user_id == "") {
+
+	$user = "temp user";
+} else {
+	$user = $user_id;;
+}
+
+
+?>
+
+
 	<body>
 				
 		<h1 class= "title">Library Listings  -  History</h1>
 		
 		<div class="welcome"> 
 		
-			<p><u>Hello <?= $user_id ?>! </u></p>
+			<p><u>Hello <?= $user ?>! </u></p>
 		</div>
 		
 		<form action="logout.php" method="POST">
