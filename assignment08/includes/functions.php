@@ -1,14 +1,15 @@
 
 <?php
 
-function userValid ($field) {
+function inputValid ($field) {
 
 	if (isset($_REQUEST[$field])) {
 	
 		if ($_REQUEST[$field] != "") {
 		
-			return htmlentities($_REQUEST[$field]); 			
-		}
+			return htmlentities($_REQUEST[$field]); 
+			
+		} 
 	}	
 }
 

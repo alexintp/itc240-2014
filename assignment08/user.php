@@ -3,10 +3,10 @@
 
 	include ("includes/functions.php");
 	
-	$user_name = userValid("user_name");
-	$password = userValid("password");
+	$user_name = inputValid("user_name");
+	$password = inputValid("password");
 
-	if ($user_name != null && $password != null) {
+	if ($user_name != false && $password != false) {
 	
 		$user_info = [
 			"user_name" => $user_name,
