@@ -6,7 +6,7 @@
 	$user_name = inputValid("user_name");
 	$password = inputValid("password");
 
-	if ($user_name != false && $password != false) {
+	if ($user_name != null && $password != null) {
 	
 		$user_info = [
 			"user_name" => $user_name,
