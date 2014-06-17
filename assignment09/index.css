@@ -1,0 +1,27 @@
+body {
+	background-color: Black;
+	font-size: 25px;	
+	color: yellow;
+}
+
+h1 {
+	color: Red;
+	font-style: italic;	
+	margin-left: 20px;
+}
+
+.detail {
+
+	float: left;
+	margin-left: 10px;
+	margin-right: 100px;
+}
+
+.summary {
+
+	float: left;
+	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid red;
+
+}
